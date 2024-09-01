@@ -21,10 +21,10 @@ Model Management: Efficient handling of model configurations and loading.
 
 ## Prerequisites
 
-Python 3.8+
-Autogen library
-LM Studio (with models loaded)
-Docker
+- Python 3.8+
+- Autogen library
+- LM Studio (with models loaded)
+- Docker
 
 ## Installation
 
@@ -38,7 +38,7 @@ cd simplified-autogen-lm-studio
 ```
 python -m venv venv
 ```
-###Activate the virtual environment
+### Activate the virtual environment
 
 On Windows:
 ```
@@ -50,7 +50,7 @@ On macOS and Linux:
 source venv/bin/activate
 ```
 
-###Install required packages:
+### Install required packages:
 ```
 pip install -r requirements.txt
 ```
@@ -112,5 +112,5 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Disclaimer
 This project is an independent initiative and is not connected to or endorsed by the teams behind AutoGen or LM Studio. While it utilizes the capabilities of these frameworks, it operates separately and is developed independently. Users should refer to the official documentation and resources provided by Microsoft for AutoGen and LM Studio for any support or inquiries related to those projects. This statement clearly communicates the independence of your project while acknowledging the technologies it leverages.
 
-## Disclaimer
+------------------
 This project is for educational and research purposes. Ensure you comply with the terms of service of any language models you use.
