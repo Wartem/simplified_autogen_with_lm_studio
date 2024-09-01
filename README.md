@@ -34,9 +34,25 @@ git clone https://github.com/yourusername/simplified-autogen-lm-studio.git
 cd simplified-autogen-lm-studio
 ```
 
-Install required packages:
+### Optional: Create a virtual environment
 ```
-pip install autogen requests
+python -m venv venv
+```
+###Activate the virtual environment
+
+On Windows:
+```
+venv\Scripts\activate
+```
+
+On macOS and Linux:
+```
+source venv/bin/activate
+```
+
+###Install required packages:
+```
+pip install -r requirements.txt
 ```
 Ensure LM Studio and Docker are installed and running with your desired models loaded.
 
