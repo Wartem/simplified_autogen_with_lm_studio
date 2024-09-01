@@ -9,6 +9,8 @@
 # Simplified Autogen with LM Studio
 ### Simplify agent creation in LM Studio with automated workflows, streamlining your experience and reducing complexity.
 
+**Note:** This project is currently under development and is not intended to be viewed as a complete or production-ready solution. Features and functionality are still being added, and there may be bugs or incomplete sections.
+
 ## Overview
 This project combines the power of Autogen, a framework for developing AI agents, with LM Studio, a tool for running large language models locally. It provides a simplified interface for creating and managing AI agents. Two simple examples are included, one-on-one conversations and group chats using locally hosted language models.
 
