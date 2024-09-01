@@ -82,28 +82,23 @@ AGENT_CREATORS = {
         llm_config = params["llm_config"]
     ),
     AgentType.GROUP_CHAT: lambda params: autogen.GroupChat(
-        #agents=params.get("agents", None),
         agents=params["params"]["agents"],
         messages=params.get("messages", []),
         max_round=params.get("max_round", 12),
-        #speaker_selection_method=params.get("speaker_selection_method", "round_robin"),
-        #allow_repeat_speaker=params.get("allow_repeat_speaker", False), 
+        # speaker_selection_method=params.get("speaker_selection_method", "round_robin"),
+        # allow_repeat_speaker=params.get("allow_repeat_speaker", False), 
         # llm_config=params.get("llm_config", None)
     ),
     AgentType.GROUP_CHAT_MANAGER: lambda params: autogen.GroupChatManager(
-        #agents=params["params"]["agents"] if params["params"]["agents"] else params["agents"],
-        #messages=params.get("messages", None),
-        #max_round=params.get("max_round", 12),
-        #speaker_selection_method=params.get("speaker_selection_method", "round_robin"),
-        #allow_repeat_speaker=params.get("allow_repeat_speaker", False), 
+        # messages=params.get("messages", None),
+        # max_round=params.get("max_round", 12),
+        # speaker_selection_method=params.get("speaker_selection_method", "round_robin"),
+        # allow_repeat_speaker=params.get("allow_repeat_speaker", False), 
         
         system_message = "You are managing a group chat.",
         groupchat=params["params"]["groupchat"]
-        #name=params.get("name", "Group Chat Manager"),
         
-        #max_consecutive_auto_reply = 10,
-        #human_input_mode = "NEVER",
+        # human_input_mode = "NEVER",
         # llm_config=params.get("llm_config", None)
-        #max_round=params.get("max_round", 12),
     ),
 }
