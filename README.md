@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/language-Python-blue.svg)
+![AutoGen](https://img.shields.io/badge/framework-AutoGen-orange.svg)
+![LM-Studio](https://img.shields.io/badge/LLM-LM--Studio-green.svg)
+![License](https://img.shields.io/badge/license-MIT-yellow.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)
+![AI](https://img.shields.io/badge/AI-enabled-blue.svg)
+![Local LLM](https://img.shields.io/badge/LLM-Local-red.svg)
+![Template](https://img.shields.io/badge/project-Template-lightgrey.svg)
 
 # Simplified Autogen with LM Studio
 ### Simplify agent creation in LM Studio with automated workflows, streamlining your experience and reducing complexity.
