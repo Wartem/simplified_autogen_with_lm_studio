@@ -1,0 +1,110 @@
+{
+    "phi_2_gguf": {
+        "config_list": [
+            {
+                "model": "TheBloke/phi-2-GGUF",
+                "base_url": "base_url",
+                "api_key": "api_key",
+                "temperature": 0.5
+            }
+        ],
+        "cache_seed": "None",
+        "max_tokens": 4096
+    },
+    "phi_3_mini_4k_instruct_q4": {
+        "config_list": [
+            {
+                "model": "microsoft/Phi-3-mini-4k-instruct-gguf/Phi-3-mini-4k-instruct-q4.gguf",
+                "base_url": "base_url",
+                "api_key": "api_key",
+                "temperature": 0.5
+            }
+        ],
+        "cache_seed": "None",
+        "max_tokens": 4096
+    },
+    "llama_3_1_8B_instruct_Q8_0": {
+        "config_list": [
+            {
+                "model": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf",
+                "base_url": "base_url",
+                "api_key": "api_key",
+                "temperature": 0.7
+            }
+        ],
+        "cache_seed": "None",
+        "max_tokens": 16000
+    },
+    "internlm2_5_20b_chat_q3_k_m": {
+        "config_list": [
+            {
+                "model": "internlm/internlm2_5-20b-chat-gguf/internlm2_5-20b-chat-q3_k_m.gguf",
+                "base_url": "base_url",
+                "api_key": "api_key",
+                "temperature": 0.7
+            }
+        ],
+        "cache_seed": "None",
+        "max_tokens": 12000
+    },
+    "Meta-Llama-3.1-8B-Instruct-Q8_0.gguf": {
+        "config_list": [
+            {
+                "model": "lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf",
+                "base_url": "http://localhost:1234/v1",
+                "api_key": "lm-studio",
+                "temperature": 0.5
+            }
+        ],
+        "cache_seed": null,
+        "max_tokens": 1024
+    },
+    "internlm2_5-20b-chat-q3_k_m.gguf": {
+        "config_list": [
+            {
+                "model": "internlm/internlm2_5-20b-chat-gguf/internlm2_5-20b-chat-q3_k_m.gguf",
+                "base_url": "http://localhost:1234/v1",
+                "api_key": "lm-studio",
+                "temperature": 0.5
+            }
+        ],
+        "cache_seed": null,
+        "max_tokens": 1024
+    },
+    "phi-3-mini-4k-instruct-q4": {
+        "config_list": [
+            {
+                "model": "phi-3-mini-4k-instruct-q4",
+                "base_url": "http://localhost:1234/v1",
+                "api_key": "lm-studio",
+                "temperature": 0.7
+            }
+        ],
+        "cache_seed": null,
+        "max_tokens": 1024
+    },
+    "meta-llama-3.1-8b-instruct-q8_0": {
+        "config_list": [
+            {
+                "model": "meta-llama-3.1-8b-instruct-q8_0",
+                "base_url": "http://localhost:1234/v1",
+                "api_key": "lm-studio",
+                "temperature": 0.7
+            }
+        ],
+        "cache_seed": null,
+        "max_tokens": 1024
+    },
+    "internlm2_5-20b-chat-q3_k_m": {
+        "config_list": [
+            {
+                "model": "internlm2_5-20b-chat-q3_k_m",
+                "base_url": "http://localhost:1234/v1",
+                "api_key": "lm-studio",
+                "temperature": 0.7
+            }
+        ],
+        "cache_seed": null,
+        "max_tokens": 1024
+    }
+}
