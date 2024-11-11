@@ -32,8 +32,8 @@ Model Management: Efficient handling of model configurations and loading.
 
 Clone the repository:
 ```
-git clone https://github.com/yourusername/simplified-autogen-lm-studio.git
-cd simplified-autogen-lm-studio
+git clone https://github.com/Wartem/simplified_autogen_with_lm_studio.git
+cd simplified_autogen_with_lm_studio
 ```
 
 ### Optional: Create a virtual environment
